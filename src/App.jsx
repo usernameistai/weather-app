@@ -31,7 +31,7 @@ function App() {
                         value={city}
                         onChange={(e) => setCity(e.target.value)}
                     />
-                    <button type="submit">Get Weather</button>
+                    <button type="submit"><strong>Get Weather</strong></button>
                 </form>
             </div>
             { error && <p style={{ color: 'red '}}>{error}</p> }

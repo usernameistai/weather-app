@@ -12,6 +12,8 @@ h1 {
 }
 button {
   margin: 0.77rem 0.5rem;
+  color: #313131;
+  font-weight: 700;
 }
 .app {
   background-image: url('./assets/cold-bg.jpg');
