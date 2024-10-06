@@ -21,7 +21,7 @@ function App() {
 
     return (
         <div className={weather && (weather.main.temp > 15) ? 'app warm' : 'app' }>
-            <h1>Weather App</h1>
+            <h1>OpenWeatherMapp</h1>
             <div className="search-box">
                 <form onSubmit={handleSubmit}>
                     <input 
@@ -38,7 +38,7 @@ function App() {
 
             { weather ? (
                 <div className="location-box weather-info">
-                    <h2 className="location">{ weather.name }</h2>
+                    <h2 className="location" id="location">{ weather.name }</h2>
                     <div className="weather-box">
                         <p className="temp">Temperature: {weather.main.temp} *c</p>
                         <p className="date">Feels like: {weather.main.feels_like} *c</p>

@@ -14,6 +14,8 @@ button {
   margin: 0.77rem 0.5rem;
   color: #313131;
   font-weight: 700;
+  margin-left: 70%;
+  margin-top: 0.70rem;
 }
 .app {
   background-image: url('./assets/cold-bg.jpg');
@@ -61,9 +63,13 @@ main {
 .search-box .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
 }
+#location {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
 .location-box .location {
   color: #FFF;
-  font-size: 32px;
+  font-size: 2rem; 
   font-weight: 500;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
@@ -82,6 +88,11 @@ main {
 .weather-box {
   text-align: center;
   min-width: 100vw;
+  font-size: 2.5rem;
+}
+.temp {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 .weather-box .temp {
   position: relative;
@@ -96,11 +107,13 @@ main {
   /* font-size: 3.3rem; */
   font-weight: 900;
   max-width: 95vw;
-  font-size: 2.5rem;
 
-  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.weather {
+  margin-top: 2rem;
 }
 .weather-box .weather {
   color: #FFF;
